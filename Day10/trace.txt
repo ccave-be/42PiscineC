@@ -1,0 +1,489 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p22.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jul  4 14:34:45 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_10/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user log --pretty='%H - %an, %ad : %s'
+31401be6533ab50b4e484c418b485a571c57be91 - Marti Cols, Tue Jul 3 14:07:50 2018 -0700 : Fix name function ft_advanced_sort_wordtab.c
+8fb60a3750b31f863c1ba524449d524d66c35db1 - Marti Cols, Tue Jul 3 14:07:26 2018 -0700 : Fix name function ft_advanced_sort_wordtab.c
+daaa5da29001ff6c379b1251c6729492bed2d554 - Marti Cols, Tue Jul 3 14:05:04 2018 -0700 : Create ft_advanced_sort_wordtab.c
+d8e7ddc63e399243937dcde74707f90cee7a6f53 - Marti Cols, Tue Jul 3 13:58:52 2018 -0700 : Create ft_sort_wordtab.c
+9b7b5df32efa9872c3a3e9cf9cb51e631aeab3a1 - Marti Cols, Tue Jul 3 12:03:41 2018 -0700 : Fix all makefiles
+3137df0b35e9d494bbdbec3eff2e44f5fe95d7b5 - Marti Cols, Mon Jul 2 23:18:21 2018 -0700 : Create do-op and change makefile
+96a6737e6785f2fe43e9c897c282052b78f86571 - Marti Cols, Mon Jul 2 18:15:22 2018 -0700 : Fix ft_is_sort.c
+379d55a4c8d600be15e908e2797d92c7c30997c6 - Marti Cols, Mon Jul 2 18:14:14 2018 -0700 : Create ft_is_sort.c
+b3a878ec438b368f19ef49b7e5843ba77d7df157 - Marti Cols, Mon Jul 2 18:10:49 2018 -0700 : Create ft_count_if.c
+69336a526d3e766583519beb7255d375f6e1d7ae - Marti Cols, Mon Jul 2 18:06:26 2018 -0700 : Create ft_any.c
+1645b58b3c149f22b975b3d75a9ad4d0ef232699 - Marti Cols, Mon Jul 2 18:00:56 2018 -0700 : Quit the protypes
+a2353fda224a53ac416082c582f8cc327cf90871 - Marti Cols, Mon Jul 2 17:59:53 2018 -0700 : Create ft_map.c
+1c1006ff9c33f9d5b906cf42dca511808a738dd0 - Marti Cols, Mon Jul 2 17:38:32 2018 -0700 : Create ft_map.c
+baa069df671d42914d8e6a703efb6f8ffcadeaff - Marti Cols, Mon Jul 2 16:26:25 2018 -0700 : Check norminette
+5cd2877a44ba4d5a323f3895a53ae773217152b1 - Marti Cols, Mon Jul 2 16:25:35 2018 -0700 : Create ft_foreach.c
+ded4d52e30748d48964f186628b00537fdf5457e - Marti Cols, Mon Jul 2 16:18:41 2018 -0700 : Fix makefile
+d02d68bdaaab90326ab633d3108975b352885d46 - Marti Cols, Mon Jul 2 15:10:54 2018 -0700 : Create Makefile
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user
+total 16
+-rw-r--r--  1 deepthought  deepthought  4710 Jul  4 14:34 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex05
+drwxr-xr-x  5 deepthought  deepthought   170 Jul  4 14:34 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex07
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  4 14:34 ex08
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1292 Jul  4 14:34 Makefile
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1003 Jul  4 14:34 ft_foreach.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1109 Jul  4 14:34 ft_map.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1033 Jul  4 14:34 ft_any.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1056 Jul  4 14:34 ft_count_if.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1060 Jul  4 14:34 ft_is_sort.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1165 Jul  4 14:34 Makefile
+drwxr-xr-x  4 deepthought  deepthought   136 Jul  4 14:34 includes
+drwxr-xr-x  6 deepthought  deepthought   204 Jul  4 14:34 srcs
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex06/includes:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1219 Jul  4 14:34 main.h
+-rw-r--r--  1 deepthought  deepthought  1007 Jul  4 14:34 transforms.h
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex06/srcs:
+total 32
+-rw-r--r--  1 deepthought  deepthought  1262 Jul  4 14:34 checkers.c
+-rw-r--r--  1 deepthought  deepthought  1625 Jul  4 14:34 main.c
+-rw-r--r--  1 deepthought  deepthought  1187 Jul  4 14:34 operators.c
+-rw-r--r--  1 deepthought  deepthought  1803 Jul  4 14:34 transforms.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1338 Jul  4 14:34 ft_sort_wordtab.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp0yIZ3J/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1206 Jul  4 14:34 ft_advanced_sort_wordtab.c
+
+= ex00 =========================================================================
+total 8
+-rw-r--r--  1 deepthought  deepthought  1292 Jul  4 14:34 Makefile
+drwxr-xr-x  3 deepthought  deepthought   102 Jul 19  2016 includes
+drwxr-xr-x  7 deepthought  deepthought   238 Jul 19  2016 srcs
+rm -f ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+gcc -Wall -Werror -Wextra -c srcs/ft_putchar.c srcs/ft_putstr.c srcs/ft_strcmp.c srcs/ft_strlen.c srcs/ft_swap.c -Iincludes/
+ar rc libft.a ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+ranlib libft.a
+rm -f ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+rm -f libft.a
+gcc -Wall -Werror -Wextra -c srcs/ft_putchar.c srcs/ft_putstr.c srcs/ft_strcmp.c srcs/ft_strlen.c srcs/ft_swap.c -Iincludes/
+ar rc libft.a ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+ranlib libft.a
+rm -f ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+rm -f libft.a
+gcc -Wall -Werror -Wextra -c srcs/ft_putchar.c srcs/ft_putstr.c srcs/ft_strcmp.c srcs/ft_strlen.c srcs/ft_swap.c -Iincludes/
+ar rc libft.a ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+ranlib libft.a
+-rw-r--r--  1 deepthought  deepthought  4008 Jul  4 14:34 libft.a
+
+Grade: 10
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft_foreach.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_foreach.c -o user_exe
+
+= Test 1 ===================================================
+$> ./hwnkm4ynpvpuyxtsrc8hi6c3 "-40892" "242901" "-322827" "240894" "292563" "300227" "-399191" "271591" "-349046" "351179" "2924" "-155864" "198103" "-89435"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./d6fnu1qoavjr69jqx9o57la0 "100192" "-30396" "10038"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./2v3p8rxcknjzo58nxgabet7l "95008" "-296039" "-408836" "268224" "292924" "-193896"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./tfoz55mrr1r7ph4ne1ctg84w "-315684" "-122186" "371065" "-55919" "-362713" "408183" "-326924" "179933" "-322924" "-414206" "-9349" "1305" "-282198" "303384" "-187868"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./9zri6vo3rtzsenkn2mu7dtnz "-211004" "347225" "-372309" "30734" "68090" "-83557" "-317101" "78219" "-266471" "-61071" "-119814" "-234087" "-329818" "-368947" "-360472" "-64665"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./f41rjcpyn33l9nw1bhmez4w7 "166573" "-87274" "341450" "-289473" "-238823" "-282815" "330717" "-362471" "234531" "326280" "-356490" "-249347" "-8572" "352172" "-167334" "258476" "262862" "267711" "-241027"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./4eo8ztth7ntfvowsw6t3rc3n "199085" "218302" "-18715" "277973" "-283885" "41388" "145713" "190740" "309120" "-406209" "-154484" "368763" "359112"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./nquhkoidifjy334xjc8z7t05 "-169429" "-222911" "-150530" "362466"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette  ft_map.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_map.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./89oyjqv5jk4tjfx6duqu14h7 "198289" "-271284" "-326091" "-142047" "-21495"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./9yqg450i5a3vk3zo2zkxy3wb "-142877" "368032" "-234543" "-289421" "329979" "-324514" "305071" "320334"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./qzlfnc8vs17hs687kvh61oz1 "-233325" "-403469" "149518" "-193004" "108254" "96458" "-261245" "43669" "26215" "-27408" "-165676" "312091" "-249531" "-158096" "396946" "-422146"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./qym2njigdxur8v9wj1ul4qmj "-289232" "-32177" "97289" "11243" "-366082" "-337920" "-166594" "-9208" "-202336" "292844" "320300" "785" "257475" "-347731" "-388776" "162801" "65790" "152065"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ap0uwbxedycf4zb9cy4dxgom "337565" "-414891" "-223896" "-339385" "74803" "-245565" "329739" "-130203" "199849" "86134" "380342" "158862" "-68459" "-390154" "103384"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./ryw0qkubqpv2p2llgq9e42kb "205368" "90644" "322465" "228333" "174614" "297693" "-232953" "-218466" "-11914" "135627" "215940"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./cu21girw7kub9e8p58rj1v0w "410825" "-280945" "405160" "-142236" "122395"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./wme8yjwh3laqhwdiciccjcbe "-108273" "-4924" "-229088" "75155" "107502" "123442" "-189898" "192706" "-328063" "104924" "115627" "55964" "-354696" "178046" "89345" "112666" "311060" "-52730"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette  ft_any.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_any.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./5qhg5zn43mq2trfhert5ahi9 "Ws0v8" "4c" "8" "Y5A3tzwin" "SGd" "21N70Tqfl" "3uc" "QP1GtiHF" "M0p" "pUyLS86vg" "pGm5zE0" "NZ" "UKLxG5y" "B09X12f" "I" "kLxeX" "SXI" "est5zvIBJi" "a"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./0dqkepa82m7lwc66yt8jj6j2 "f9aZ" "w" "IwQypVPo8" "yCJUxqZ2GcA" "l" "w0mLXVrhfWuP" "yJ7ibD8Thr9" "m" "qSwnFP8lDZsp" "SwEBfRTpA" "P5L34" "y4f" "QxjRyEVo"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./53mgtk9x069mva4e4it9rfbb "DX" "TenNd4uB" "nO7r53SH1MUx" "pwmYSbZUR" "7tYQopcnus" "HvfYi" "nmiK"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./78bdzn1mrn9k4muwo5jr7bxm "XTqpzRywu" "p6UZRany" "9Pl7b" "KSBntO5g" "yZmKeNqEtDA" "sy" "EpHemiTbnzl" "qZySOan7Pi" "62ghG" "jEu2a8LPxU" "sVkzX5SNfqx" "UhIq" "JWF" "M50" "oBnlEgFwt9"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./oag7b34rbr21jms11zcmuf7f "T4XlcYv" "GyDBwVd7" "B" "d26KohuGO"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./1pan5wc3jmiqz8xf5sfmxjdm "a" "F" "RUvpPJexzoEC" "b7ulvOHW" "gbA9EZfB" "VjHF"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./fd6q6iyyaxjkcxfpgchcu8m1 "VRmtIypT" "i2" "r5bUm24xFaB" "huI1g2" "e76QD9o" "dPBjzUA" "cNZWD1" "Of1ZX6" "FQ1Y" "j4" "tnMfmbeK" "g" "q6y" "ZjR3agM2KuCX" "pRw" "1oGPXVcdBS6"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./m58bwuedkhugkt5oke0i2fbc "jwT" "e7qm" "XSho" "tH" "W3TbuG0N" "YguvGPTRsZEz" "Ce8bq4tS5kY" "Lx5lVwtBy3" "EIa" "WUCDgJQji" "a" "7clGPOfi" "WYHcbTN7a6p" "Zalu" "4a" "HYAJ" "RIMV3e" "G9mV78lE1UYH" "gqV06UviL"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_count_if.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_count_if.c -o user_exe
+
+= Test 1 ===================================================
+$> ./8jopsl63mxh3wu2qhsmjg3ad "xF84q0" "oPxI7RzKBr4" "TjNgXyfKLq" "ypEscrTqzSDY" "y6B34qVNsul" "oth5Cxg1" "mfLQthneJ" "h8Rqf" "Md" "4q" "6woPpm" "yzojg" "Wk"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./83x4e75pb5r7uhm1q63hl56w "Sn4f7qQLtrDs" "w6cESlJX" "XaJ" "wn27sqV" "PkiXdzVy" "szh0VIdiWPG" "zX1Nd" "TpGnJE6" "eNzgsV" "V2" "B8swVm6SqZx5" "6WZ" "W8BV7aq" "bP7SO6WU3k0G"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./0igdoxtnl1tqwsrm5egqykky "xW" "J9phk" "r" "a1umjz5CpnGY" "c" "xLAUFcCwI" "yEO" "DP5AI" "0S6AyZz" "9K7S" "NbvQ"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./vno2op01py4u60pswmbs1p2m "6SsGgZ" "XPdgj" "ZVWErcUnP" "R6PCTf" "Mf6g" "GkJoUd" "fRBKq9j4Ha" "Un0G" "eBIOw5dG6lg" "KvVWjqun1J0H"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ly9gtn88z399txadxuz8bf8s "OId2Ygh3m" "VBgucO5DqjQ"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./tiwm70dmb74hgsikcfgjpr1a "hFv4aJcQb" "rzxF" "KDVfFABO1d" "ZlW1csgU09KN" "1rcKv2WFy" "m59FfeEaYzI"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./3enwbkmqcfn31cgb3hf0ch5n "qpTSd" "uQRI4oar" "YJtWBh" "Sw" "p8dkY3VxD" "ctV58" "LO" "zIXxZg3ju" "ZhKSlw" "PG" "7UghSQ1e"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./x3cwfat3223c3gje6qgoo8z0 "0Fyw" "KP4mrZhRB" "X3" "4P" "Szf87vd" "QRbV" "i0ebQrxzY" "zpYixFCB" "8KIJibjv" "4tdo65hwaZ8" "I" "ZmGu3ra" "12Pfi"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_is_sort.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_is_sort.c -o user_exe
+
+= Test 1 ===================================================
+$> ./19whtrjq7d02btajeg6gfi56
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./iqmrx8q5m0flwo9042nr0hsb "58014"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./0jzja539effmt5hskz15fnrf "-395215" "-360782" "-105057" "-94324" "-77581" "182743" "190535" "343811"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./ediezom8mjpfrybmpar6hi89 "-411287" "-322081" "-308288" "-303919" "-196204" "-184898" "75602" "266290" "303728" "330329"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./eukj9r9u1rpo7m03076p5fi5 "-88573" "389812"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+--- user_output_test5   2018-07-04 14:35:05.000000000 -0700$
++++ test5.output        2018-07-04 14:35:04.000000000 -0700$
+@@ -1,3 +1,3 @@$
+ 1$
+-0$
++1$
+ 1$
+
+Diff KO :(
+Grade: 0
+
+= ex06 =========================================================================
+2
+62
+00
+Stop : division by zero
+02
+2147483646
+-2147483648
+2147483647
+-2147483645
+2147483647
+Stop : division by zero
+
+$> diff -U 3 user_output ref_output | cat -e
+--- user_output 2018-07-04 14:35:05.000000000 -0700$
++++ ref_output  2018-07-04 14:35:05.000000000 -0700$
+@@ -1,11 +1,13 @@$
+ 2$
+ 62$
+-00$
++0$
++0$
+ Stop : division by zero$
+-02$
++0$
++2$
+ 2147483646$
+ -2147483648$
+ 2147483647$
+ -2147483645$
+ 2147483647$
+-Stop : division by zero$
++Stop : modulo by zero$
+
+Diff KO :(
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette  ft_sort_wordtab.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_sort_wordtab.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./agtpmt5x2qw8qdiuc0mg75w7 "0aqVQvCltD" "t"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./92oot8bocztie454sp1kfrvx "FoVnZJD" "8ACK" "FN" "8PN0YQZFD9" "e2" "U" "PyE861N" "WQnmx" "torzODv" "edjbZ0T" "XDFPQ" "B0czU"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./0hqdzftc52aumw6jl679dc9p "7cd" "JzSy" "KdxZaV6f" "xeG" "8CHMp" "nISAMXx3T71s" "Fy"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./yjcod79t174ubydpk1kiuwr9 "JBfU" "iJ" "ZiIDh5"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./l010twhe0mxz3chf36y9i8qe "ykD5pfB" "50NuQg" "5DAQIZfwKJg0"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./0r2ko8rtilud2muiyvgcwxek "XT0U" "cCQrzeUDokg" "Eo" "P64DXaJYh" "ylSoWZfX"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./f0vummtwcditlsdyo26qceah "5CmZa6nr4" "0J" "hu7F" "LoAjerhOE" "GgZ8v73D" "l" "qmd" "YR1lFhKodp" "rbyRkSnlcg" "q5oD3dsS1wv" "OTxVyouqk" "XF1vsYIqj" "ZALD63Y1M5H" "1hBTaogW" "ntv8"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./ktve5spdw11si1ttm8wwuxbm "kVdNg1c" "UQHDt7O5r" "AcKYrHIzgl" "myfT18Z3" "E" "2TdQkpPuE" "H1izOXr2" "syzohndRqGC4" "W" "s3oU8Ve" "cK8Pe" "k9zR47NUmd"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex08 =========================================================================
+$> /usr/bin/norminette  ft_advanced_sort_wordtab.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_advanced_sort_wordtab.c -o user_exe
+
+= Test 1 ===================================================
+$> ./6mdmvlm2bgyvhzstdbpjg4of "IPO" "KBxYAoi7E"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./o54hq1vk887zu8p5einv433g "T" "C" "7pR" "9H0x" "qCYg6Lz" "uznwH15gB"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./vaid2vdu0hlphr1xp2jff3bz "KUq" "XcBa5oeyU" "tVq2raL" "szhdUFKytJbQ" "ylsK" "cK1Woh" "vmz9" "Vd" "MGL" "90YBTPlcgS" "TEcJ"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./1d0bt4c4cytdbegciho8zej6 "DJ" "yV12k" "VR6" "FfhJtq5Mm" "IyQk0Zqz" "OZ" "xnhNW" "iur0" "oW8G" "UJiAekqcpG" "bF" "zgGwWYRLI9" "RF9PmfOc"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+--- user_output_test4   2018-07-04 14:35:11.000000000 -0700$
++++ test4.output        2018-07-04 14:35:11.000000000 -0700$
+@@ -3,10 +3,10 @@$
+ tab[1]: OZ$
+ tab[2]: bF$
+ tab[3]: VR6$
+-tab[4]: oW8G$
+-tab[5]: iur0$
+-tab[6]: xnhNW$
+-tab[7]: yV12k$
++tab[4]: iur0$
++tab[5]: oW8G$
++tab[6]: yV12k$
++tab[7]: xnhNW$
+ tab[8]: IyQk0Zqz$
+ tab[9]: FfhJtq5Mm$
+ tab[10]: UJiAekqcpG$
+
+Diff KO :(
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 40 ==============================================================

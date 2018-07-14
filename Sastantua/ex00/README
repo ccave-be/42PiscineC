@@ -1,0 +1,7 @@
+ft_max_width_stage
+	1) Get the max_width_stage of the previous one
+	2) Get the number of characters increased by the rows after the first: (stage + 1) * 2
+	3) Get the number of characters increased at the first row: if stage is even: stage + 4 , if not is stage + 3
+ft_width_first_line
+	1) Get the maximum value of the last row of the previous stage.
+	2) Get the number of characters increased at the first row: if stage is even: stage + 4 , if not is stage + 3

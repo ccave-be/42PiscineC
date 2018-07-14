@@ -1,0 +1,137 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r4p22.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Fri Jul  6 17:01:03 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_12/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user log --pretty='%H - %an, %ad : %s'
+f144377f72f2277a0872f1d4d12ea6b3ebbcbcc6 - Marti Cols, Thu Jul 5 22:41:15 2018 -0700 : Delete one function form ex00
+0d559d1c2c239c3172ba737d8d4b8f68afe99dcb - Marti Cols, Thu Jul 5 19:23:09 2018 -0700 : Create ft_cat
+743e694398344290f6ac94af3fb7ae4e2637b5d9 - Marti Cols, Thu Jul 5 16:52:56 2018 -0700 : Fix error display main.c
+ddef7747db84ffaa8bfaaf1d4418115f13d7d45e - Marti Cols, Thu Jul 5 10:53:23 2018 -0700 : Fix include ft_display_file
+8229510c2b5fc114388d4946a1d7d80571ecc2f9 - Marti Cols, Thu Jul 5 10:00:43 2018 -0700 : Create ft_display_file
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1831 Jul  6 17:01 __GIT_HISTORY
+drwxr-xr-x  5 deepthought  deepthought   170 Jul  6 17:01 ex00
+drwxr-xr-x  5 deepthought  deepthought   170 Jul  6 17:01 ex01
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1129 Jul  6 17:01 Makefile
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  6 17:01 includes
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  6 17:01 srcs
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex00/includes:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1042 Jul  6 17:01 main.h
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex00/srcs:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1557 Jul  6 17:01 main.c
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1174 Jul  6 17:01 Makefile
+drwxr-xr-x  6 deepthought  deepthought   204 Jul  6 17:01 includes
+drwxr-xr-x  6 deepthought  deepthought   204 Jul  6 17:01 srcs
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex01/includes:
+total 32
+-rw-r--r--  1 deepthought  deepthought  1242 Jul  6 17:01 ft_checkers.h
+-rw-r--r--  1 deepthought  deepthought   983 Jul  6 17:01 ft_errors.h
+-rw-r--r--  1 deepthought  deepthought  1057 Jul  6 17:01 ft_read.h
+-rw-r--r--  1 deepthought  deepthought   975 Jul  6 17:01 main.h
+
+/var/folders/l0/h71gp04d4f36n915sthbqvm40000gp/T/tmpn6eqUY/user/ex01/srcs:
+total 32
+-rw-r--r--  1 deepthought  deepthought  1683 Jul  6 17:01 ft_checkers.c
+-rw-r--r--  1 deepthought  deepthought  1280 Jul  6 17:01 ft_errors.c
+-rw-r--r--  1 deepthought  deepthought  1419 Jul  6 17:01 ft_read.c
+-rw-r--r--  1 deepthought  deepthought   988 Jul  6 17:01 main.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  includes/main.h srcs/main.c | grep -E '^(Error|Warning)'
+
+$> make clean && make && make fclean && make && make clean && ls -la ft_display_file
+rm -f
+gcc -Wall -Werror -Wextra -o ft_display_file -Iincludes/ srcs/main.c
+rm -f
+rm -f ft_display_file
+gcc -Wall -Werror -Wextra -o ft_display_file -Iincludes/ srcs/main.c
+rm -f
+-rwxr-xr-x  1 deepthought  deepthought  8868 Jul  6 17:01 ft_display_file
+
+= Test 1 ===================================================
+$> ./vu6y6lbpu9u2ctzt47rr9jdp
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./3puxgy9cdzxzvzyw42x277bh hyper_file.txt
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./zhnf8yjz6kfupvzailjydz56 hyper_file.txt hyper_file.txt
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+Grade: 20
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  srcs/main.c srcs/ft_read.c srcs/ft_errors.c includes/ft_errors.h includes/ft_checkers.h includes/main.h srcs/ft_checkers.c includes/ft_read.h | grep -E '^(Error|Warning)'
+
+$> make clean && make && make fclean && make && make clean && ls -la ft_cat
+rm -f *.o
+gcc -Wall -Wextra -Werror -o ft_cat -Iincludes/ srcs/ft_checkers.c srcs/ft_errors.c srcs/ft_read.c srcs/main.c
+rm -f *.o
+rm -f ft_cat
+gcc -Wall -Wextra -Werror -o ft_cat -Iincludes/ srcs/ft_checkers.c srcs/ft_errors.c srcs/ft_read.c srcs/main.c
+rm -f *.o
+-rwxr-xr-x  1 deepthought  deepthought  9060 Jul  6 17:01 ft_cat
+
+= Test 1 ===================================================
+$> ./g2qn06xmhwcgyozzmnno4bf3 abczaopfkjzemlgijez
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2018-07-06 17:01:26.000000000 -0700$
++++ test1.output        2018-07-06 17:01:26.000000000 -0700$
+@@ -1 +1 @@$
+-ft_cat: abczaopfkjzemlgijez: No such file or directory$
++cat: abczaopfkjzemlgijez: No such file or directory$
+
+Diff KO :(
+Grade: 0
+
+= ex02 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex03 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex04 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 20 ==============================================================

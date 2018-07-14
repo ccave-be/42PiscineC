@@ -1,0 +1,2 @@
+nano \""\\?\$*’KwaMe’*\$?\\"\"
+I put back slashes to let the bash know that i want to print that characters

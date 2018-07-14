@@ -1,0 +1,199 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r8p7.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Jun 24 17:11:33 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_04/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user log --pretty='%H - %an, %ad : %s'
+8a9f6540d7ad847a191c25d7593e8fc6f6727a00 - Marti Cols, Sat Jun 23 21:19:24 2018 -0700 : Fix the negatives at ft_find_next_prime
+c361fa549cccc34b5f3e04077fe488f0962facca - Marti Cols, Sat Jun 23 21:01:09 2018 -0700 : Create ft_find_next_prime.c
+095e9dc2dbb21b1c32a1d3a894f13be2ca71444e - Marti Cols, Sat Jun 23 19:59:57 2018 -0700 : Fix negative numbers of ft_find_next_prime and remove stdio form ft_is_prime
+80a19e9f4257cd7d629eb39bd575b136d073a3cc - Marti Cols, Sat Jun 23 19:55:33 2018 -0700 : Create ft_find_next_prime.c
+0a8198618a2b24c46aac019db105808f69bf6c43 - Marti Cols, Sat Jun 23 18:56:32 2018 -0700 : Bug fix int 2 is a prime numeber
+d8ba752b49feece3c0c3e1128e6f1e836165b130 - Marti Cols, Sat Jun 23 18:49:28 2018 -0700 : Handle the negative int at ft_is_prime.c
+25975ea86e4c668d3c5487acd31c3c1f849b6006 - Marti Cols, Sat Jun 23 18:29:49 2018 -0700 : Remove stdio.h include and fix ft_recursive_factoral_power.c
+9172e24bf9777c8c8c2b1382cea23faafdfd2b18 - Marti Cols, Sat Jun 23 17:42:27 2018 -0700 : Create ft_is_prime.c
+a77d984a03de212981aaab9b06f78f6b41400861 - Marti Cols, Sat Jun 23 15:36:54 2018 -0700 : Create ft_sqrt.c
+8e2ad8b3f32cd99bc68c4388abdcafd376f72791 - Marti Cols, Sat Jun 23 13:07:02 2018 -0700 : Make recursive the ft_fibonacci.c
+50bf86356b9148afd39a65fcaee843b6f93b08e8 - Marti Cols, Sat Jun 23 05:29:45 2018 -0700 : Bug fix ft_iterative_factorial
+6469e301fc8ca91eb38434f13d99535578edb48d - Marti Cols, Sat Jun 23 05:21:39 2018 -0700 : Optimize all the funcions until 4
+ac876ce79cf7dab1054f2f4150caa81f2ef96158 - Marti Cols, Sat Jun 23 05:13:23 2018 -0700 : Create ft_fibonacci.c
+de7b45b63c96c01cdaf051e95fff8b8f74d26fba - Marti Cols, Sat Jun 23 02:23:24 2018 -0700 : Create ft_recursive_power.fc
+f78d9229fddfd3761513083175695c9d6d89052e - Marti Cols, Fri Jun 22 23:43:31 2018 -0700 : Fix power to zero at ft_iterative_power.c
+a6efbe8dc117c7c3503e4dee0647637a318ba80f - Marti Cols, Fri Jun 22 23:32:59 2018 -0700 : Create ft_iterative_power.c
+48324d64867a5289983e46d7ac4bc8ca2e12d2db - Marti Cols, Fri Jun 22 23:18:40 2018 -0700 : Bug fix negative ints at ft_recursiv_factorial.c
+8a01c81a7c616d4734567b69d53226b7559e1bc6 - Marti Cols, Fri Jun 22 23:16:35 2018 -0700 : Create ft_recursive_factorial.c
+5a42f8dda38548178b96c8e31d60f52e123deb35 - Marti Cols, Fri Jun 22 22:43:14 2018 -0700 : Fix the maximum of the integer
+f42851f4c2f52b31679bf940b7bea5e35bf8daad - Marti Cols, Fri Jun 22 22:23:18 2018 -0700 : Create ft_iterative_factorial.c
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user
+total 16
+-rw-r--r--  1 deepthought  deepthought  5669 Jun 24 17:11 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 24 17:11 ex07
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1063 Jun 24 17:11 ft_iterative_factorial.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1053 Jun 24 17:11 ft_recursive_factorial.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1053 Jun 24 17:11 ft_iterative_power.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1053 Jun 24 17:11 ft_recursive_power.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1028 Jun 24 17:11 ft_fibonacci.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1399 Jun 24 17:11 ft_sqrt.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1378 Jun 24 17:11 ft_is_prime.c
+
+/var/folders/f4/7sq1ypgs5s938mdk_gq8zt2w0000gp/T/tmpUlWbln/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1420 Jun 24 17:11 ft_find_next_prime.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_factorial.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_iterative_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./9e0eyze8nma30l6lcbbnkv30
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_factorial.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_recursive_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./epb3rcq7teobjqbjuclryphz
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_power.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_iterative_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./b7whxdf9v5721d38ptbw4x24
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_power.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_recursive_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./7a9txyynta0693v077o8qevl
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_fibonacci.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_fibonacci.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./v4rhji3iw5yljm5vsmmcg2lv
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2018-06-24 17:11:47.000000000 -0700$
++++ test1.output        2018-06-24 17:11:47.000000000 -0700$
+@@ -1,4 +1,4 @@$
+-fibonacci of -2690 is -2690$
++fibonacci of -2690 is -1$
+ fibonacci of 0 is 0$
+ fibonacci of 1 is 1$
+ fibonacci of 2 is 1$
+
+Diff KO :(
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_sqrt.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_sqrt.c -o user_exe
+
+= Test 1 ===================================================
+$> ./54tegsj8u6znuyd3f30oce3u
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_is_prime.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_is_prime.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./gcq5xfz13ujqgvhh1jfueeuq
+Command './gcq5xfz13ujqgvhh1jfueeuq' timed out after 10 seconds
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_find_next_prime.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_find_next_prime.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./9im96u58ut6x8jxr0k3wkjyt
+Command './9im96u58ut6x8jxr0k3wkjyt' timed out after 10 seconds
+Grade: 0
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 40 ==============================================================

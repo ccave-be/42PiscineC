@@ -1,0 +1,186 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r3p8.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Fri Jun 29 11:01:12 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_07/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user log --pretty='%H - %an, %ad : %s'
+0eb7bbb6b47c9072268aed6c5fd9f3fd88ac0d4a - Marti Cols, Thu Jun 28 22:47:03 2018 -0700 : Fix ft_split_whitespaces.c
+839a117523616c550802a774055d1705739e2402 - Marti Cols, Thu Jun 28 22:04:46 2018 -0700 : Create ft_split_whitespaces.c
+a8af1f8d66b20f4530206fb4fe679ec4c1ee2cfd - Marti Cols, Thu Jun 28 19:59:18 2018 -0700 : Fix ft_split_whitespaces.c
+15e49c2127eaa8c4141f3447205daac12d5c0003 - Marti Cols, Thu Jun 28 19:49:47 2018 -0700 : Fix ft_split_whitespaces.c
+fcdf9cd9c6980f58213ad0f86b1e40b9a287d9c6 - Marti Cols, Thu Jun 28 19:27:09 2018 -0700 : Fix ft_split_whitespaces.c
+c714820f0adc6cae0677958da66ea83714bfb245 - Marti Cols, Thu Jun 28 19:23:14 2018 -0700 : Fix ft_split_whitespaces.c
+9edb2b91e9ec1bca7233d54dff6924f0f26a42b0 - Marti Cols, Thu Jun 28 15:43:49 2018 -0700 : Create ft_split_whitespaces.c
+f6a09977f721af1e02d7b90655c8b9bda8d3c29f - Marti Cols, Thu Jun 28 14:37:48 2018 -0700 : Fix ft_concat_params.c
+a370ac3167275a8cccd7aa1f1338f3c861979bf9 - Marti Cols, Thu Jun 28 14:32:30 2018 -0700 : Fix ft_concat_params.c
+c51b51755f3d1f9197e971f7683f4bacc2023963 - Marti Cols, Thu Jun 28 14:30:54 2018 -0700 : Fix ft_concat_params.c
+87fa3edc7ecdba4b817c2ca72a3a53c899e01f8a - Marti Cols, Thu Jun 28 14:04:16 2018 -0700 : Create ft_concat_params.c
+92ffeebb6e29a4d461c603ef224ce5f8a4d1e65b - Marti Cols, Thu Jun 28 11:58:30 2018 -0700 : Create ft_ultimate_range.c
+38b48e270c5aa217638d962a8d6cc4614f873e6a - Marti Cols, Thu Jun 28 10:56:43 2018 -0700 : Fix ft_ultimate_range.c
+5f64381182035d50f991c1ff6f9c0ca3c5bfebb4 - Marti Cols, Thu Jun 28 10:34:43 2018 -0700 : Fix ft_ultimate_range.c
+1d0ffe7f4e1f4a24f12378f0d932e5dbe681f7a2 - Marti Cols, Thu Jun 28 10:28:18 2018 -0700 : Fix ft_ultimate_range.c
+95cc7cd943f1bf51a031ac0d67a9592faefa27fa - Marti Cols, Thu Jun 28 10:11:08 2018 -0700 : Create ft_ultimate_range.c
+a1ec9c14ee410142b829b0c2a8b172958214e4e4 - Marti Cols, Wed Jun 27 21:29:02 2018 -0700 : Fix ft_range.c
+ab46ffcf8820634bf5a8bbd5832655212cee2727 - Marti Cols, Wed Jun 27 21:25:41 2018 -0700 : Create ft_range.c
+cc249f0b9aadd32b42647e4912013721b6ba7e9d - Marti Cols, Wed Jun 27 19:52:23 2018 -0700 : Fix ft_strdup.c
+c516b9ca2b60f09652a254e815eaee1d7d1f3525 - Marti Cols, Wed Jun 27 19:47:11 2018 -0700 : Create ft_strdup.c
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user
+total 16
+-rw-r--r--  1 deepthought  deepthought  5146 Jun 29 11:01 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 11:01 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 11:01 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 11:01 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 11:01 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 11:01 ex04
+
+/var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1336 Jun 29 11:01 ft_strdup.c
+
+/var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1342 Jun 29 11:01 ft_range.c
+
+/var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1348 Jun 29 11:01 ft_ultimate_range.c
+
+/var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1440 Jun 29 11:01 ft_concat_params.c
+
+/var/folders/nc/rl8x3_794pjbskfyfh577n6h0000gp/T/tmpyOFGcv/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1799 Jun 29 11:01 ft_split_whitespaces.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strdup.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_strdup.c -o user_exe
+
+= Test 1 ===================================================
+$> ./53d4yfuka2gjm1u63dj8snhm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_range.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_range.c -o user_exe
+
+= Test 1 ===================================================
+$> ./vqko64p87mojwapvha62wb5u
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_ultimate_range.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_ultimate_range.c -o user_exe
+
+= Test 1 ===================================================
+$> ./d1hdguibywj1rwhe7it76yrf
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_concat_params.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_concat_params.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./hjt0dopcie4sttwwnhbubxg1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./omlbvrdr0opb5f6r816zsp8a "soNPbiQ7Vf"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./r3rvlxenfhw4r2uec2ba5bv4 "NE7ez8w1"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./0f5k8gnaqib3dal37dul622d "4OUslx J43glaNQCV6d WgneHKSL MLse GBlT7H8i"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./45bl582jlsa80aa38ifa3huc "Z OAU6S 6B Tv1 ExmwiTtzZv HqQPkmOpV cRFzvqs l6s0Zo E ITb3MmS"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./t05v1ov8l2cu6h5kpt49ctvp "YRU27" "Gg" "fAZewjIKE" "lXq4LjyT" "MK7eY" "uGejl" "tS1p" "dCRHOgSIzVZm" "9u8d0KG" "AjSD63r"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./whgdmr8nihfdpd2j7c45czib "g875" "c" "CX" "CbYW" "8tiYV2lXHP" "NmfLlDTZ46" "16wEaHv0nfgC" "M" "2DfYW0wU" "TrS6oAuYGZ2z" "RF" "JwXKycm" "An" "QPKxs4tBlH" "ubH5p3"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./wr42r0gp2p97x60snmv4a0hk "dkZy9KYmWpvO" "RiPE3WNzsQ kweXHl HWbFRuLNO4E 97DUHlJeNdt" "MtmwWcVxUO c HZrWXi0YOV" "g8c" "RiLE4yN9 Ml8i3x UK8Bs0YdyHDr"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./ql35p4ybdpykhnxw2xy0zwos "GNuZQsMmwVD Xpo1jsDM3VH 9" "u3r jWE 61znTf myEwxWPdKe" "A0n 9tc5rfPxMS pW2Pj1hBdOyr Lat3TWGNIq" "togHd8a Eai ofQ" "hSOAJ2 xO NMg U5ycCDBj" "zAvPjhW zPID" "Z176YoR 9efLXA85O 95ACt2pP7" "EV8iN zIxtlH"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_split_whitespaces.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_split_whitespaces.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./wxu262gwxpqiy7ym452r7yyp "                         "
+Command './wxu262gwxpqiy7ym452r7yyp "                           "' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex05 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex06 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 40 ==============================================================

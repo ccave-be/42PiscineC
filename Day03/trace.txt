@@ -1,0 +1,187 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r2p42.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sat Jun 23 13:56:43 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_03/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user log --pretty='%H - %an, %ad : %s'
+3fbd2df286089c1675e29125ae9d38583cbca95f - Marti Cols, Fri Jun 22 16:02:33 2018 -0700 : Create ft_strrev.c
+0f27048f6c6cf53ab03010a8385396d221f9f47a - Marti Cols, Fri Jun 22 14:46:51 2018 -0700 : Bug fitx ft_strlen.c
+36f33ab77d46342af064cb9b553d518886373e81 - Marti Cols, Fri Jun 22 14:21:17 2018 -0700 : Bug fitx ft_putstr.c
+b59cdb4219bb0fa118d121a6a83f95af75a86e04 - Marti Cols, Fri Jun 22 14:18:24 2018 -0700 : Correct ft_putstr.c
+3914d019880a7badd713d0f24ffb171838a1207d - Marti Cols, Fri Jun 22 14:16:07 2018 -0700 : Bug fix of ex03 ex05 ex06
+6478b1d9f3b15716b945209c8129a890416459c9 - Marti Cols, Fri Jun 22 14:09:12 2018 -0700 : Bug fitx ft_strlen.c
+04a281a4d10ebf4a0ad7565134a2135de66cf85a - Marti Cols, Fri Jun 22 10:43:10 2018 -0700 : Bug fix ft_strlen.c
+f1f0192eba0008fc557c24bc3045c3dbb87b90d6 - Marti Cols, Thu Jun 21 23:58:47 2018 -0700 : Create ft_strlen.c
+996fe4def95b7638a93744deee465e5a13edd70d - Marti Cols, Thu Jun 21 23:31:17 2018 -0700 : Create ft_putstr.c
+c67c66161e1afc90186d7e4768354cdbc28c21e9 - Marti Cols, Thu Jun 21 17:29:13 2018 -0700 : Create ft_ultimate_div_mod.c and quit the stdio.h import from all files
+50931b2fea3b18b3a1a73d5cfbd595fdf4a3ca1f - Marti Cols, Thu Jun 21 17:12:15 2018 -0700 : Create ft_div_mod.c
+5175627f3038f34da1e0401d43963049aaffdb1b - Marti Cols, Thu Jun 21 16:57:06 2018 -0700 : Modify ft_ultimate_ft.c and create ft_swap.c
+ff664375aa667e3ffdc22746ce57a773e35a0d02 - Marti Cols, Thu Jun 21 15:59:55 2018 -0700 : Create ft_ultimate_ft.c
+4f10d52ec6049c7281e7c900c91dcea9e5d0b9ce - Marti Cols, Thu Jun 21 14:22:13 2018 -0700 : Create ft_ft.c function
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  3756 Jun 23 13:56 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 23 13:56 ex07
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  929 Jun 23 13:56 ft_ft.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  954 Jun 23 13:56 ft_ultimate_ft.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  972 Jun 23 13:56 ft_swap.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  976 Jun 23 13:56 ft_div_mod.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1047 Jun 23 13:56 ft_ultimate_div_mod.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1025 Jun 23 13:56 ft_putstr.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1016 Jun 23 13:56 ft_strlen.c
+
+/var/folders/r4/j43sj10s1_q9jr20tzwhmtqm0000gp/T/tmpor96jX/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1149 Jun 23 13:56 ft_strrev.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_ft.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_ft.c ft_putchar.c test_ft_ft.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ocrrsokt735e1j0cyowu8nhp
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_ultimate_ft.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_ultimate_ft.c ft_putchar.c test_ft_ultimate_ft.c -o user_exe
+
+= Test 1 ===================================================
+$> ./yrlcmk18fs1p7gonz6egon0r
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_swap.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_swap.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./es72cwavvwqoe493e1p0cy6p
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_div_mod.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_div_mod.c -o user_exe
+
+= Test 1 ===================================================
+$> ./isuqmkeeteo6i72f2gywxg10
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_ultimate_div_mod.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_ultimate_div_mod.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./455x04orbn6f5mueti92qsgk
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putstr.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_putstr.c ft_putchar.c ft_putstr.c -o user_exe
+
+= Test 1 ===================================================
+$> ./13ad6wdtxhxgr0yjjmznyfle
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlen.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strlen.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./gimcvgvhbaysf2qa9kaiespj
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex07 =========================================================================
+$> gcc -Wextra -Wall -Werror ft_strrev.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./nsi4n8c0rl28mqj15p17n8wg
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 15
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 65 ==============================================================

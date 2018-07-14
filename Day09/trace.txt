@@ -1,0 +1,141 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r1p20.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sat Jun 30 18:12:41 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_09/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/58/w4mvh94d2csc9lbx5t7w4mlr0000gp/T/tmpsd37sg/user log --pretty='%H - %an, %ad : %s'
+852a0423b37f4ff93d1f37051be62b72b38b2ddb - Marti Cols, Fri Jun 29 13:05:31 2018 -0700 : Create ft_generic.c
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/58/w4mvh94d2csc9lbx5t7w4mlr0000gp/T/tmpsd37sg/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  243 Jun 30 18:12 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jun 30 18:12 ex00
+
+/var/folders/58/w4mvh94d2csc9lbx5t7w4mlr0000gp/T/tmpsd37sg/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1049 Jun 30 18:12 ft_generic.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  ft_generic.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_generic.c test_ft_generic.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ut9yolyjy7oag6r0fmy7ndiq
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex01 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex02 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex03 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex04 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex05 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex06 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex10 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex11 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex12 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex13 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex14 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex15 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex16 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex17 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex18 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex19 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex20 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 3 ===============================================================

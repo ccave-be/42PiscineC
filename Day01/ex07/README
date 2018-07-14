@@ -1,0 +1,24 @@
+Com fer la expressio regular de GREP -> https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux
+cat /etc/passwd | grep -e "^[^#]"
+
+
+
+Elimina la primera linia a partir d'alla commença a fer tots els paroles 
+
+cat /etc/passwd | grep -e "^[^#]" | sed -n "g;n;p"
+
+Canvio a awk prevue no puc entendre la nuncio
+awk '{if (NR!=1 && NR%2==0) {print $0}
+
+
+http://www.grymoire.com/Unix/Sed.html#uh-1
+cat /etc/passwd | grep -e "^[^#]" | sed -n "g;n;p" | cut -d ":" -f 1 | rev | sort -r
+
+
+
+
+cat /etc/passwd | grep -e "^[^#]" | awk '{if (NR!=1 && NR%2==0) {print $0}}' | cut -d ":" -f 1 | rev | sort -r | grep "^[$FT_LINE1-$FT_LINE2]" | tr '\n' ', ' | sed -e 's/,$/./'
+
+
+
+

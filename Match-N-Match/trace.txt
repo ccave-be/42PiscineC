@@ -1,0 +1,65 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z4r12p6.42.us.org
+Darwin 17.5.0 x86_64
+$> date
+Mon Jul  2 16:38:52 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_match_n_match/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/k0/2kw3cyjd1d32qhzrr_3f6vbr0000gp/T/tmpTpHUYh/user log --pretty='%H - %an, %ad : %s'
+aa4d5829dcba5167768338c94925ef5e50527700 - Marti Cols, Sat Jun 30 23:05:48 2018 -0700 : Create nmatch.c
+0aa62624844ab05668af885050b7c62e58b314a2 - Marti Cols, Sat Jun 30 22:52:47 2018 -0700 : Create nmatch.c
+0baa94cb71837e447690237ffe9aede977451ef0 - Marti Cols, Sat Jun 30 20:35:45 2018 -0700 : Make the function shorter
+8d3aa0c5468bfbc6b9cb4968806d2520603f8bb8 - Marti Cols, Sat Jun 30 20:07:44 2018 -0700 : Create match.c
+f1490d0854e79f54bd0cac4849d27a1cd2b386d0 - Marti Cols, Sat Jun 30 17:32:57 2018 -0700 : More shorter
+3d273978ee400cec277a087991f205cfbd6d0306 - Marti Cols, Sat Jun 30 17:30:07 2018 -0700 : Shorner match.c
+e8011f55efc7e6f5ac5a08642c66967ce30afad7 - Marti Cols, Sat Jun 30 17:26:28 2018 -0700 : Create match.c
+158ee40fb4c32dc42f16660fc5da3298c4e99966 - Marti Cols, Sat Jun 30 12:12:50 2018 -0700 : Create match.c
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/k0/2kw3cyjd1d32qhzrr_3f6vbr0000gp/T/tmpTpHUYh/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1880 Jul  2 16:38 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  2 16:38 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jul  2 16:38 ex01
+
+/var/folders/k0/2kw3cyjd1d32qhzrr_3f6vbr0000gp/T/tmpTpHUYh/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1164 Jul  2 16:38 match.c
+
+/var/folders/k0/2kw3cyjd1d32qhzrr_3f6vbr0000gp/T/tmpTpHUYh/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1171 Jul  2 16:38 nmatch.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader match.c | grep -E '^(Error|Warning)'
+Error (line 20): bad indentation
+
+Norme check FAILED
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader nmatch.c | grep -E '^(Error|Warning)'
+Error: 42 header not well formatted
+Error (line 4): line has 82 characters
+Error (line 20): bad indentation
+
+Norme check FAILED
+Grade: 0
+
+= Final grade: 0 ===============================================================

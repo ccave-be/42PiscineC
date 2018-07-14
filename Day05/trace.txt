@@ -1,0 +1,384 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r7p24.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 27 16:30:50 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_05/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user log --pretty='%H - %an, %ad : %s'
+2fd7253531eaad04fabac73d93486cc3e662f78f - Marti Cols, Tue Jun 26 18:46:17 2018 -0700 : Fix ex12 and ex15
+5428396ad77f7cff4d6d547bc6b9f8ee85d1fcdf - Marti Cols, Tue Jun 26 17:51:58 2018 -0700 : Fix ft_strstr.c
+51c824393fbd746a4989952d40a7fb96a4907633 - Marti Cols, Tue Jun 26 16:44:38 2018 -0700 : Fix ft_str_is_numeric.c
+0a6f26227dddd81a5d3e2285c506353613897e5b - Marti Cols, Tue Jun 26 16:41:13 2018 -0700 : Create ex13 ex14 ex15
+447f548794b69e6c7bb09afffefb32451c92c05e - Marti Cols, Tue Jun 26 16:28:44 2018 -0700 : Create ex13 ex14 ex15
+56e44295d7d06b9e38b759a64931de7d8d117d7d - Marti Cols, Tue Jun 26 16:15:41 2018 -0700 : Create ft_str_is_numeric.c
+c6d2353cd5696fb75cfd31cc161cc167faa8a526 - Marti Cols, Tue Jun 26 16:07:57 2018 -0700 : Fix ft_strstr.c
+1080c1a5e95c60d3cc8e70fd86b4c34a3d6b9f65 - Marti Cols, Tue Jun 26 16:07:06 2018 -0700 : Fix ft_strstr.c
+f7dc8268bf8ad27bf904350b070bb0447df5f2a7 - Marti Cols, Tue Jun 26 16:05:33 2018 -0700 : Create ft_str_is_alpha.c
+83faebcebee87670b75f129993e783d69d53f841 - Marti Cols, Tue Jun 26 15:19:26 2018 -0700 : Create ft_strcapitalize.c
+7f2ecbac37883f2068b1b9f610ec25dea1a6787d - Marti Cols, Tue Jun 26 14:58:44 2018 -0700 : Fix ft_atoi.c
+89870f65908affdd0858ac8a3ed3985a795c7500 - Marti Cols, Tue Jun 26 14:08:47 2018 -0700 : Create ft_strcapitalize.c
+1168237b2880d4b61bdad4ddee81ac50331a1baa - Marti Cols, Tue Jun 26 13:14:53 2018 -0700 : Create ft_strlowcase.c
+1ae3d3ae24b86968d24d08e7cb5307179b0522b2 - Marti Cols, Tue Jun 26 13:09:36 2018 -0700 : Create ft_strupcase.c
+237c29b3d33f409be58a7a34886b66aaf6e8f471 - Marti Cols, Tue Jun 26 12:28:06 2018 -0700 : Fix ft_strcmp.c
+1bfdb81ac5f94ac856f0d06d4285094921c9e0a8 - Marti Cols, Tue Jun 26 12:13:35 2018 -0700 : Fix ft_strcmp.c
+d62504e5c2cbfc484bdd795e037839d216c39a2d - Marti Cols, Tue Jun 26 12:11:19 2018 -0700 : Create ft_strcmp.c
+d0ea659d1b3b00da992c4de4a26caed39043e7f1 - Marti Cols, Tue Jun 26 11:47:31 2018 -0700 : Fix ft_strstr.c
+e84fb86d33953aed002ae4fa9167e67b45b89f84 - Marti Cols, Tue Jun 26 11:15:09 2018 -0700 : Create ft_strstr.c
+b4cf15efd343b866bc082920feaf06d4a6af8a1c - Marti Cols, Mon Jun 25 22:52:39 2018 -0700 : Fix ft_strcpy.c
+ba8e24cddd99f5ba5c28c58544f51fbdf101d204 - Marti Cols, Mon Jun 25 22:03:38 2018 -0700 : Create ft_strcpy.c
+5c0b10287e478d73c223d38e2bb8a9507a865475 - Marti Cols, Mon Jun 25 21:43:23 2018 -0700 : Fix ft_strcpy.c
+e1ac6d961a477b5bee58e876ab1b56352b4e0c8d - Marti Cols, Mon Jun 25 21:36:08 2018 -0700 : Fix ft_strcpy.c
+6b972a257385f3baf1451ba98769eda075d62a32 - Marti Cols, Mon Jun 25 20:37:48 2018 -0700 : Fix ft_strncpy.c
+89c15e23f330be9f0736224d7068d4218f36d33d - Marti Cols, Mon Jun 25 20:29:37 2018 -0700 : Fix ft_strcpy.c ft_strncpy.c
+42a0d6721e7fcd8a700cee4a729a01a89e6b3555 - Marti Cols, Mon Jun 25 19:32:51 2018 -0700 : Create ft_strncpy.c
+ce4d416a75308a451484b39414afdb87905b1462 - Marti Cols, Mon Jun 25 19:08:40 2018 -0700 : Create ft_strcpy.c
+2b2cb851f2befa99238aee621505f8109d76311b - Marti Cols, Mon Jun 25 18:42:55 2018 -0700 : Change final of array form n to 0. Ups
+53219f501b4b543700ed5c4effb738beb636ae3e - Marti Cols, Mon Jun 25 18:39:52 2018 -0700 : Fix negative values
+48c327e95cc59127f991c8d08afd734ce6db39c5 - Marti Cols, Mon Jun 25 18:35:50 2018 -0700 : Bug fix ft_atoi.c
+d708bb885292a2c34d66ac15b64f24b79503cbef - Marti Cols, Mon Jun 25 17:30:33 2018 -0700 : Create ft_atoi.c
+659ee8eb6e2435c889398a4a1edc8f39c4368cc2 - Marti Cols, Mon Jun 25 13:09:18 2018 -0700 : Create ft_atoi.c
+6b02de4ed40168751a019b56edf0f2fb50f404fa - Marti Cols, Mon Jun 25 11:23:05 2018 -0700 : Fix the minimum value of the int to display
+bf9e9ab19ee3854e1c7432ca05a2aa80788f1802 - Marti Cols, Mon Jun 25 10:37:44 2018 -0700 : Bug fitx ft_putnbr.c
+c3fb859d6291802a297986d3d1dd7293982fd5d4 - Marti Cols, Mon Jun 25 09:49:58 2018 -0700 : Create ft_putnbr.c
+57f143666b77c5842b10072f0ec64050b27933d8 - Marti Cols, Mon Jun 25 09:17:45 2018 -0700 : Create ft_putstr.c
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user
+total 24
+-rw-r--r--  1 deepthought  deepthought  9428 Jun 27 16:30 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex08
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex09
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex10
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex11
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex12
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex13
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex14
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 27 16:30 ex15
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex00:
+total 8
+-rwxr-xr-x  1 deepthought  deepthought  1025 Jun 27 16:30 ft_putstr.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1240 Jun 27 16:30 ft_putnbr.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1424 Jun 27 16:30 ft_atoi.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1043 Jun 27 16:30 ft_strcpy.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1118 Jun 27 16:30 ft_strncpy.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1186 Jun 27 16:30 ft_strstr.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1111 Jun 27 16:30 ft_strcmp.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1048 Jun 27 16:30 ft_strupcase.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex09:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1048 Jun 27 16:30 ft_strlowcase.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex10:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1456 Jun 27 16:30 ft_strcapitalize.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex11:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1083 Jun 27 16:30 ft_str_is_alpha.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex12:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1052 Jun 27 16:30 ft_str_is_numeric.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex13:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1055 Jun 27 16:30 ft_str_is_lowercase.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex14:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1054 Jun 27 16:30 ft_str_is_uppercase.c
+
+/var/folders/14/krrvv_f52fd6h7kdlqdsw0hh0000gp/T/tmpg1Cr0y/user/ex15:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1054 Jun 27 16:30 ft_str_is_printable.c
+
+= ex00 =========================================================================
+$> gcc -Wextra -Wall -Werror test_ft_putstr.c ft_putchar.c ft_putstr.c -o user_exe
+
+= Test 1 ===================================================
+$> ./54lqszlv61vetxuyjmthqxhl
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex01 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putnbr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./5czmi8dcnscl6f8835xzdk7i
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex02 =========================================================================
+$> gcc -Wextra -Wall -Werror test_ft_atoi.c ft_putchar.c ft_atoi.c -o user_exe
+
+= Test 1 ===================================================
+$> ./vtf79x3dqwcvoq49zq52yfei
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2018-06-27 16:30:54.000000000 -0700$
++++ test1.output        2018-06-27 16:30:54.000000000 -0700$
+@@ -7,12 +7,12 @@$
+ 0$
+ 709551615$
+ -12$
+--1223$
+--1223$
++-12$
++12$
+ 12$
+ 2147483647$
+ 0$
+ 0$
+ 0$
+-2$
++0$
+ 2$
+
+Diff KO :(
+Grade: 0
+
+= ex03 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strcpy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./1cbm7ujioakxat236pjrkwt1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex04 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strncpy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./1wfjrvq0m28o3mz4r2jod7ol
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2018-06-27 16:30:55.000000000 -0700$
++++ test1.output        2018-06-27 16:30:55.000000000 -0700$
+@@ -1,12 +1,15 @@$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
+-$
++LPlBJqvwnWHE$
++eGjdpTrSa$
++KIqJbcoRq$
++zpnoJwrTyHirrKyUO$
++ZmpDQOFucQVcpHhnySlGjUxPdhVhFdNJdxOYBnD$
++WKAzVgHJRrJvOzLoGDHQvDHvHxRcxUmOwDDccnt$
++eNBizyrWqTHtnMSQqZXgvDHvHxRcxUmOwDDccnt$
++tKgpauWVxFBewCdOEizEGOTMacTjRVmOwDDccnt$
++q$
++I test a strncpy,$
++ because I like it$
++I test a strncpy,$
++ because I like it$
++I test a st$
++rncpy,$
+
+Diff KO :(
+Grade: 0
+
+= ex05 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_strstr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./w7c94ablk36gshhjs2nrcm1q
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex06 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_strcmp.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./jxxz29lmow07c44w2oysg6um
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex08 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strupcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./dnrpy88car4cetaiz8u1001d
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex09 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strlowcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./gs84031yn5ur5a8moba0ca9y
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex10 =========================================================================
+$> gcc -Wextra -Wall -Werror ft_strcapitalize.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./dw4f6h752ud472fwxq3bn07e
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2018-06-27 16:30:58.000000000 -0700$
++++ test1.output        2018-06-27 16:30:58.000000000 -0700$
+@@ -10,4 +10,4 @@$
+ Null$
+ $
+    $
+-Rekt17+Lol Mdr Mdr 4242L42$
++Rekt17+Lol Mdr Mdr 4242l42$
+
+Diff KO :(
+Grade: 0
+
+= ex11 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_str_is_alpha.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./6hppsjgr3rkla66lvek5dhgs
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex12 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_str_is_numeric.c -o user_exe
+
+= Test 1 ===================================================
+$> ./bdilqaqteuvuqzuslpmqswz6
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex13 =========================================================================
+$> gcc -Wextra -Wall -Werror ft_str_is_lowercase.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./0i1wouz3e43rzgrggf971uo5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex14 =========================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_str_is_uppercase.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./llrwgdmzxgg8zoe4vm18hn7p
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex15 =========================================================================
+$> gcc -Wextra -Wall -Werror ft_str_is_printable.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./cdq10x1cun3cmn9fe5u68wwq
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 6
+
+= ex16 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex17 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex18 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex19 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex20 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 10 ==============================================================

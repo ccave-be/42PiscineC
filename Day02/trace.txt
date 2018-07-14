@@ -1,0 +1,155 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r5p24.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Fri Jun 22 22:14:28 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_02/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user log --pretty='%H - %an, %ad : %s'
+d3368afe30b479e8e2df57a219d542be969407df - Marti Cols, Thu Jun 21 22:12:20 2018 -0700 : Bug fix ft_ascii_print function
+abb0c34149c0ef233b92308835415b068ae2c43e - Marti Cols, Thu Jun 21 21:56:53 2018 -0700 : Add ft_print_comb2.c
+2cce453c403a750e35c414cbfe795d3d73a29f86 - Marti Cols, Thu Jun 21 21:55:45 2018 -0700 : Bug fix ft_print_reverse_alphabet.c and create ft_print_comb2
+70ca632e263f5d3b79195aae79dc72cee595ccdd - Marti Cols, Thu Jun 21 20:54:19 2018 -0700 : Bug fix ft_print_reverse_alphabet.c
+5ec50af8f58588280ba02d8ca9fb5504f6ed1a36 - Marti Cols, Thu Jun 21 20:52:32 2018 -0700 : I need to protype ft_putchar
+d9877b33145c616c6408c30b68ee2078dfc4534d - Marti Cols, Thu Jun 21 20:49:35 2018 -0700 : I don't need to import the files
+b4de9776a4b7d5748d39665b89dfd7ea80334345 - Marti Cols, Thu Jun 21 12:58:17 2018 -0700 : Remove ft_print_alphabet
+f88144ccd309503263f308ae1bde566010077452 - Marti Cols, Thu Jun 21 12:55:19 2018 -0700 : Create ft_print_comb.c
+e72aeffe4c0e28c405cbdaf10dafba1a8062cc38 - Marti Cols, Thu Jun 21 12:45:17 2018 -0700 : Fix ft_is_negative.c
+e03ce9ca47e5240e1a6fce146f256c1978daf3df - Marti Cols, Thu Jun 21 12:43:01 2018 -0700 : Fix the ft_putchar
+7ea3ed15faa4ae1e35d6abe4841ffa73e7c33b9e - Marti Cols, Wed Jun 20 16:35:44 2018 -0700 : Create ft_is_negative.c
+b29e3c0f8e221ee4c46257e752bec69f7aad37ab - Marti Cols, Wed Jun 20 16:25:59 2018 -0700 : Create ft_print_numbers.c
+002ea68ff4b003c4a276ced5921d987160c3a368 - Marti Cols, Wed Jun 20 16:21:02 2018 -0700 : Create ft_print_reverse_alphabet.c
+cbda89b3e6577279d8c2b158287d7e8b13f3c604 - Marti Cols, Wed Jun 20 16:11:18 2018 -0700 : Create ft_print_alphabet
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user
+total 16
+-rw-r--r--  1 deepthought  deepthought  4296 Jun 22 22:14 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 22 22:14 ex05
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex00:
+total 8
+-rwxr-xr-x  1 deepthought  deepthought  1042 Jun 22 22:14 ft_print_alphabet.c
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1027 Jun 22 22:14 ft_print_reverse_alphabet.c
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1018 Jun 22 22:14 ft_print_numbers.c
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1017 Jun 22 22:14 ft_is_negative.c
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1401 Jun 22 22:14 ft_print_comb.c
+
+/var/folders/q2/zqfmdjf92pn4s92pccsg6kjc0000gp/T/tmpIB71L6/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1426 Jun 22 22:14 ft_print_comb2.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_alphabet.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_alphabet.c ft_putchar.c ft_print_alphabet.c -o user_exe
+
+= Test 1 ===================================================
+$> ./j28gsgdq42e1o3gi2ll2twfb
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_reverse_alphabet.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_reverse_alphabet.c ft_putchar.c ft_print_reverse_alphabet.c -o user_exe
+
+= Test 1 ===================================================
+$> ./895at040z8zvs23sa0iawbez
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_numbers.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_numbers.c ft_putchar.c ft_print_numbers.c -o user_exe
+
+= Test 1 ===================================================
+$> ./xotj5y4x5gfb6xu1wfo8qbx9
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_is_negative.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_is_negative.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./qhw3korssxl9abesjshiyh6f
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_comb.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_comb.c ft_print_comb.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./vbltj5e49uj4452jg50yisjx
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 15
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_comb2.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_comb2.c ft_print_comb2.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./laqs2c4syci8t1r56fxccmej
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 15
+
+= ex06 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 65 ==============================================================

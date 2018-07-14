@@ -1,0 +1,21 @@
+for display de base "'\\\"?!"
+
+echo $FT_NBR1+$FT_NBR2 | tr "'\\\\\"?\!mrdoc" "0123401234"
+
+S'ha de posar mes barres per contrarestar la barra \ que no sortia. Nose perque pero he anat fent testing fins que tr no ha mostrat barres
+
+ara actualment tenim un numero amb base de 5 i la base que volem es de 13. Pertant necessitem transformar de base 5 a 13. Aixo ho fem amb bc. Despres haurem de trasnformar cada caracter de base 13 a la base que volen gtaio luSnemf
+
+
+Per fer el canvi bc utilitza ibase i obase. Necsitem un programa que posi el echo al davant. Aixo ho pot fer xargs i fican el comando que volem executar. Pertant ens quedara la suma de base 5 i despres el canvi de base a 15.
+
+L'ultim que tenim de fer es canviar els signes de base 15 als que ens especifiquen. Utilitzan tr.
+
+echo $FT_NBR1+$FT_NBR2 | tr "'\\\\\"?\!mrdoc" "0123401234" | xargs echo "obase=5; ibase=13;" | bc | tr "0123456789ABC" "gtaio luSnemf"
+
+Fer les dues coses a l'hora de canviar de base i sumar no funciona pertant l ho que fare es sumar indicant que la base input es de 5 i despres agafare aquest resultat i demanare que la base de output sigui de 13. 
+
+echo $FT_NBR1+$FT_NBR2 | tr "'\\\\\"?\!mrdoc" "0123401234" | xargs echo "ibase=5;" | bc | xargs echo "obase=13;" | bc | tr "0123456789ABC" "gtaio luSnemf"
+
+
+

@@ -1,0 +1,146 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r4p38.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 20 10:32:05 PDT 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_00/mcols
+
+= Git history ==================================================================
+$> git -C /var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user log --pretty='%H - %an, %ad : %s'
+18d0393229bc19ca36696a4e058a720b2e31d81d - Marti Cols, Tue Jun 19 20:02:05 2018 -0700 : Modify klist
+bb7ecf6e6cc03e1cb9565ac52a479d8f83d497ee - Marti Cols, Tue Jun 19 10:27:56 2018 -0700 : New day, new ideas
+1506535a1d09a2fdb58863f8bc16a794313c0e69 - Marti Cols, Mon Jun 18 23:22:04 2018 -0700 : I will go to sleep, I am soo tired
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1225 Jun 20 10:32 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex07
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex08
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex09
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex10
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 20 10:32 ex11
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2048 Jun 20 10:32 testDay00.tar
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex02:
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Jun 20 10:32 exo2.tar
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  151 Jun 20 10:32 klist.txt
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  26 Jun 20 10:32 who_am_i.sh
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  82 Jun 20 10:32 people.sh
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  114 Jun 20 10:32 mobile-phone.ldif
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  9 Jun 20 10:32 midLS
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2 Jun 20 10:32 z
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex09:
+total 8
+-rw-r--r--  1 deepthought  deepthought  538 Jun 20 10:32 b
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex10:
+total 8
+-rw-r--r--  1 deepthought  deepthought  51 Jun 20 10:32 clean
+
+/var/folders/r7/f0lfnn4x2sq5gy9f8h5y7m3h0000gp/T/tmpcekxUa/user/ex11:
+total 8
+-rw-r--r--  1 deepthought  deepthought  26 Jun 20 10:32 ft_magic
+
+= ex01 =========================================================================
+Grade: 5
+
+= ex02 =========================================================================
+Grade: 5
+
+= ex03 =========================================================================
+Grade: 0
+
+= ex04 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex05 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex06 =========================================================================
+Grade: 10
+
+= ex07 =========================================================================
+$> sh ./test_midls.sh
+Grade: 0
+
+= ex08 =========================================================================
+$> diff -U 3 z ref_output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex09 =========================================================================
+$> diff -U 3 b 42b | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex10 =========================================================================
+$> sh ./test_clean.sh
+KO
+
+Grade: 0
+
+= ex11 =========================================================================
+$> sh ./test_magic.sh
+-n testing ft_magic 1/2 ...
+< our file, > your file
+[OK]
+-n testing ft_magic 2/2 ...
+< our file, > your file
+[OK]
+
+Grade: 15
+
+= Final grade: 10 ==============================================================
